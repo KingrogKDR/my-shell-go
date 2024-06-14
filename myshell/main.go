@@ -86,6 +86,7 @@ func main() {
             cmand := exec.Command(cmd[0], cmd[1:]...)
             cmand.Stdout = os.Stdout
             cmand.Stderr = os.Stderr
+            cmand.Stdin = os.Stdin
             if err:=cmand.Run(); err!=nil {
                 fmt.Fprintf(os.Stdout, "%s: command not found\n", cmd[0])
             }
