@@ -11,7 +11,7 @@ A mini-shell developed in Go.
 - [License](#license)
 
 ## Overview
-This project is a simple shell implemented in Go, designed to demonstrate basic shell functionalities and the power of Go for system programming.
+This project is a simple shell implemented in Go that I designed to learn and improve on the language as well as to understand on a low level as to how a shell works.
 
 ## Features
 - Execute basic shell commands
@@ -28,7 +28,7 @@ This project is a simple shell implemented in Go, designed to demonstrate basic 
     cd my-shell-go
     ```
 3. **Build the project:**
-   *Since the file is built as the shell-script executes, allow executable permissions.*
+       *Since the file is built as the shell-script executes, allow executable permissions.*
     ```sh
     chmod +x shell.sh
     ```
@@ -42,7 +42,7 @@ This project is a simple shell implemented in Go, designed to demonstrate basic 
     You can type and execute your commands in the shell as you would in any other shell environment.
 
 ## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
+Contributions and issues are welcome! Please fork the repository and submit a pull request for any improvements.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
