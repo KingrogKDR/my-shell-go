@@ -28,7 +28,8 @@ This project is a simple shell implemented in Go that I designed to learn and im
     cd my-shell-go
     ```
 3. **Build the project:**
-       *Since the file is built as the shell-script executes, allow executable permissions.*
+   
+    *Since the file is built as the shell-script executes, allow executable permissions.*
     ```sh
     chmod +x shell.sh
     ```
@@ -41,6 +42,13 @@ This project is a simple shell implemented in Go that I designed to learn and im
 2. **Execute commands:**
     You can type and execute your commands in the shell as you would in any other shell environment.
 
+3. **Missing features**
+   - Autocompletion
+   - Variable Interpolation
+   - Piping
+   - Job Control
+   - History
+     
 ## Contributing
 Contributions and issues are welcome! Please fork the repository and submit a pull request for any improvements.
 
