@@ -28,8 +28,8 @@ This project is a simple shell implemented in Go, designed to demonstrate basic 
     cd my-shell-go
     ```
 3. **Build the project:**
+   *Since the file is built as the shell-script executes, allow executable permissions.*
     ```sh
-    // add executable permissions to the file
     chmod +x shell.sh
     ```
 
