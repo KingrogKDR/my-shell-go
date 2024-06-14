@@ -29,24 +29,20 @@ This project is a simple shell implemented in Go, designed to demonstrate basic 
     ```
 3. **Build the project:**
     ```sh
-    go build -o myshell
+    // add executable permissions to the file
+    chmod +x shell.sh
     ```
 
 ## Usage
-1. **Run the shell:**
-    ```sh
-    ./myshell
-    ```
-2. **Execute commands:**
-    You can type and execute your commands in the shell as you would in any other shell environment.
-
-3. **Run shell scripts:**
+1. **Run the shell-script to build and start the shell:**
     ```sh
     ./shell.sh
     ```
+2. **Execute commands:**
+    You can type and execute your commands in the shell as you would in any other shell environment.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
