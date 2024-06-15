@@ -5,6 +5,6 @@ set -e
 tmpFile=$(mktemp)
 
 ( cd $(dirname "$0") &&
-	go build -o "$tmpFile" ./abh-shell )
+	go build -o "$tmpFile" ./absh )
 
 exec "$tmpFile" "$@"
