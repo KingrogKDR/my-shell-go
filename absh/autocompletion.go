@@ -8,7 +8,7 @@ import (
 
 func autocompletion() {
     rootcmd := &cobra.Command{
-        Use: "abh-shell",
+        Use: "absh",
         Short: "Kingrog's shell",
     }
 
