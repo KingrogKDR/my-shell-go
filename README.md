@@ -36,14 +36,37 @@ This project is a simple shell implemented in Go that I designed to learn and im
 
 ## Usage
 1. **Run the shell-script to build and start the shell:**
+
+    *update: shell.sh -> absh.sh*
     ```sh
-    ./shell.sh
+    ./absh.sh
     ```
 2. **Execute commands:**
     You can type and execute your commands in the shell as you would in any other shell environment.
 
-3. **Missing features**
-   - Autocompletion
+3. **Autocompletion**
+
+    bash-completion
+    ```sh
+    absh bash-completion bash > /etc/bash_completion.d/absh
+    source /etc/bash_completion.d/absh
+    ```
+    zsh-completion
+    ```sh
+    absh zsh-completion zsh > "${fpath[1]}/_absh"
+    source "${fpath[1]}/_absh"
+    ```
+    fish-completion
+    ```sh
+    absh fish-completion fish | source
+    ```
+    powershell-completion
+    ```sh
+    absh powershell-completion powershell > absh_completion.ps1
+    . ./absh_completion.ps1
+    ```
+
+4. **Missing features**
    - Variable Interpolation
    - Piping
    - Job Control
