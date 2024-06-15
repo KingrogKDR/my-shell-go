@@ -25,13 +25,13 @@ This project is a simple shell implemented in Go that I designed to learn and im
     ```
 2. **Navigate to the project directory:**
     ```sh
-    cd my-shell-go
+    cd absh
     ```
 3. **Build the project:**
    
     *Since the file is built as the shell-script executes, allow executable permissions (if required).*
     ```sh
-    chmod +x shell.sh
+    chmod +x absh.sh
     ```
 
 ## Usage
