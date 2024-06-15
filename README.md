@@ -44,7 +44,7 @@ This project is a simple shell implemented in Go that I designed to learn and im
 2. **Execute commands:**
     You can type and execute your commands in the shell as you would in any other shell environment.
 
-3. **Autocompletion**
+3. **Autocompletion** (Still in development, may cause issues)
 
     bash-completion
     ```sh
