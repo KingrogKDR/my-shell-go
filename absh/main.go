@@ -56,6 +56,8 @@ func main() {
 
         
         switch cmd[0] {
+        case "absh":
+            autocompletion()
         case "exit":
             if len(cmd) == 1{
                 os.Exit(0)
